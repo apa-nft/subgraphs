@@ -1,0 +1,10 @@
+type Sold @entity {
+  id: ID!
+  listing: BigInt!
+  tx: Bytes!
+  newOwner: Bytes!
+  oldOwner: Bytes!
+  tokenId: BigInt! 
+  price: BigInt!
+  timestamp: BigInt!
+}
